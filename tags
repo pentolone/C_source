@@ -1,0 +1,71 @@
+ACCT	log_acct.c	/^	       } ACCT;$/
+AIUTO	dls_help.c	/^		      } AIUTO;$/
+DLS_IPC	dls_include.h	/^			} DLS_IPC;$/
+DLS_PABX	dls_include.h	/^			  } DLS_PABX;$/
+FALSE	dls_include.h	/^int	shm_ute_id          = FALSE;$/
+IOCONTROL	dls_include.h	/^			  } IOCONTROL;$/
+Mbx_attiva	bx_attiva.c	/^int main(int argc, char *argv[])$/
+Mbx_daemon	bx_daemon.c	/^int main(int argc, char *argv[])$/
+Mcheck_shm	check_shm.c	/^int main(void)$/
+Mchk_user	chk_user.c	/^int main(int argc,char *argv[])$/
+Mlog_acct	log_acct.c	/^main(int argc,char *argv[])$/
+Mpaghe	paghe.c	/^main(int argc,char *argv[])$/
+Mpt_attiva	pt_attiva.c	/^int main(int argc, char *argv[])$/
+Mtableau	tableau.c	/^int main(int argc, char *argv[])$/
+NULL	dls_include.h	/^char    *shm_utenti_pointer = (char *)NULL;$/
+SUMM	log_acct.c	/^	       } SUMM;$/
+USER_ON	dls_include.h	/^			   } USER_ON;$/
+UTENTE	dls_include.h	/^			  } UTENTE;$/
+apri_porta	bx_function.c	/^int apri_porta(void)$/
+blocco	bx_function.c	/^int blocco()$/
+c_bcc	bx_function.c	/^int c_bcc()$/
+c_chktel	bx_function.c	/^int c_chktel(void)$/
+c_segnali	dls_include.h	/^char *c_segnali[] =      {"SIGHUP",$/
+chk1	crcinf.c	/^chk1(pkt) register char *pkt; {$/
+chk2	crcinf.c	/^chk2(t) register char *t; {$/
+chk3	crcinf.c	/^chk3(pkt) register char *pkt; {$/
+controlla_pabx	bx_attiva.c	/^void controlla_pabx(char *devwarning)$/
+cut_nl	bx_function.c	/^void cut_nl(char *stringa)$/
+cut_rem	bx_function.c	/^void cut_rem(char *stringa)$/
+dialog_abort	bx_function.c	/^void dialog_abort(unsigned int sig)$/
+dls_abort	bx_function.c	/^void dls_abort(int sig)$/
+dls_abort1	bx_function.c	/^void dls_abort1(int sig)$/
+dls_blocca_db	bx_function.c	/^int dls_blocca_db(void)$/
+dls_copia	dls_include.h	/^struct termio dls_copia;$/
+dls_crc	crcinf.c	/^int dls_crc(void)$/
+dls_device	dls_include.h	/^IOCONTROL *dls_device;$/
+dls_error	bx_function.c	/^void dls_error(char *errore,char *parametro)$/
+dls_help	dls_help.c	/^int dls_help(void)$/
+dls_libera	dls_help.c	/^int dls_libera(void)$/
+dls_opentty	bx_daemon.c	/^int dls_opentty(char *argv[])$/
+dls_read	bx_function.c	/^int dls_read(void)$/
+dls_readq	pt_daemon.c	/^int dls_readq(void)$/
+dls_sblocca_db	bx_function.c	/^int dls_sblocca_db(void)$/
+dls_sem_lock	bx_function.c	/^void dls_sem_lock(unsigned int numero)$/
+dls_sem_unlock	bx_function.c	/^void dls_sem_unlock(unsigned int numero)$/
+dls_setshm	pt_daemon.c	/^int dls_setshm(void)$/
+dls_setsig	bx_function.c	/^void dls_setsig(short caso)$/
+dls_start	bx_attiva.c	/^void dls_start(void)$/
+dls_tm	dls_include.h	/^struct tm *dls_tm;$/
+dls_writeq	pt_daemon.c	/^int dls_writeq(void)$/
+err_msg	err_msg.c	/^int err_msg(void)$/
+leggi_coda	bx_function.c	/^int leggi_coda(void)$/
+leggi_coda1	bx_function.c	/^int leggi_coda1(void)$/
+leggi_porta	bx_function.c	/^int leggi_porta() {$/
+leggi_seq	pt_daemon.c	/^int leggi_seq(void)$/
+leggi_shm	bx_function.c	/^int leggi_shm(void)$/
+nil	bx_function.c	/^void nil(int sig)$/
+oraesatta	oraesatta.c	/^int oraesatta(void)$/
+pt_bcc	pt_attiva.c	/^char pt_bcc(const char *t)$/
+put_env	put_env.c	/^int put_env(void)$/
+read_env	read_env.c	/^int read_env(void)$/
+riga_lettera	bx_function.c	/^int riga_lettera(void)$/
+rw_semaphore	bx_function.c	/^int rw_semaphore(void)$/
+sblocco	bx_function.c	/^int sblocco()$/
+sccs_paytv	paytv.h	/^static char sccs_paytv[] = "@(#)paytv.h Version 1./
+sccs_tableau_h	tableau.h	/^static char sccs_tableau_h[] = "@(#)tableau.h Vers/
+scrivi_porta	bx_function.c	/^int scrivi_porta() {$/
+terminale	terminale.c	/^int terminale(void)$/
+tochar	crcinf.c	/^#define tochar(ch)  (((ch) + SP ) & 0xFF )	\/* Numb/
+tratto	log_acct.c	/^void tratto()$/
+uscita	chk_user.c	/^void uscita(unsigned int my_segnale)$/
